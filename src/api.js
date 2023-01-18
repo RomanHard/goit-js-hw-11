@@ -28,7 +28,7 @@ export default class SearchApiService {
   resetPage() {
     this.page = 1;
   }
-  // get & set контролює термін запиту
+
   get query() {
     return this.searchQuery;
   }
