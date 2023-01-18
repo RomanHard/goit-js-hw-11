@@ -7,7 +7,7 @@ import LoadMoreBTN from './load-more-btn';
 import { createOnePictureMarkup } from './markup';
 
 const refs = {
-    formRef = document.querySelector('#search-form')
-    buttonSearchRef = document.querySelector('button-search')
-    galleryRef = document.querySelector('.gallery')
+  formRef: document.querySelector('#search-form'),
+  buttonSearchRef: document.querySelector('button-search'),
+  galleryRef: document.querySelector('.gallery'),
 };
