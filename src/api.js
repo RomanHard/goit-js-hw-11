@@ -8,8 +8,6 @@ export default class SearchApiService {
     this.per_page = 40;
   }
   async fetchSearchPictures() {
-    console.log(this);
-
     const res = await axios.get(
       `${BASE_URL}?key=${API_KEY}&q=${this.searchQuery}&image_type=photo&orientation=horizontal&safesearch=true&per_page=${this.per_page}&page=${this.page}`
     );
